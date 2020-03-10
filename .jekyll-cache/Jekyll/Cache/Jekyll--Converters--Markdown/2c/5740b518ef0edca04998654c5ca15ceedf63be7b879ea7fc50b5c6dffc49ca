@@ -1,0 +1,40 @@
+I"B<h1 id="前言">前言</h1>
+
+<blockquote>
+  <p>最近几年来，信息奥林匹克竞赛一直很受大家关注，目前还支持的语言有 <code class="highlighter-rouge">pascal</code>,<code class="highlighter-rouge">c</code>,<code class="highlighter-rouge">c++</code>,在2022那以后，貌似<code class="highlighter-rouge">pascal</code>,<code class="highlighter-rouge">c</code>都要被取消了，如果你刚刚入坑，你还是学<code class="highlighter-rouge">c++</code>吧。</p>
+</blockquote>
+
+<h1 id="关于c环境">关于c++环境</h1>
+
+<h3 id="windows部分">windows部分</h3>
+
+<p>对于刚刚开始学习<code class="highlighter-rouge">c++</code>的人，只推荐一个代码编辑器叫<code class="highlighter-rouge">Dev-c++</code>
+下面是几张<code class="highlighter-rouge">Dev-c++</code>的图
+<br /></p>
+
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gco0deg8syj31c00u07h1.jpg" alt="1" /></p>
+
+<p><br /></p>
+
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gco0ddnjayj31c00u0kcj.jpg" alt="2" /></p>
+
+<p><br /></p>
+
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gco0dcswhpj31c00u0trv.jpg" alt="3" /></p>
+
+<h4 id="几个常用快捷键">几个常用快捷键</h4>
+
+<p><code class="highlighter-rouge">ctrl+n</code>新建
+<code class="highlighter-rouge">F11</code>编译运行
+可能有些计算机要<code class="highlighter-rouge">fn+F11</code></p>
+
+<p>可能慢慢你会觉得<code class="highlighter-rouge">Dev-c++</code>好丑,这时你需要用上一个全新的，完全不一样的代码编辑器<code class="highlighter-rouge">vscode</code>,这可能并不是只为<code class="highlighter-rouge">c++</code>而生的编辑器，而是支持大部分语言，<code class="highlighter-rouge">CSP-J</code>的备用软件包里有,双击安装就行了。</p>
+
+<p>几个必装的插件
+首先点击
+<img src="https://tva1.sinaimg.cn/large/00831rSTly1gco0oivcxhj3030032a9y.jpg" alt="4" />
+首先
+搜索<code class="highlighter-rouge">Chinese</code>
+然后你能看到
+<img src="https://tva1.sinaimg.cn/large/00831rSTly1gco0tlecqwj308i040mxb.jpg" alt="5" /></p>
+:ET
