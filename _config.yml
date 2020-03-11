@@ -12,7 +12,7 @@ github_repo: "https://github.com/lz2019hjh/lz2019hjh.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-#sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-lz2019hjh-gentle.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -61,13 +61,13 @@ kramdown:
 
 # Gitalk
 # gitalk:
-#   enable: false    #是否开启Gitalk评论
-#   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-#   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-#   repo: qiubaiying.github.io    #仓库名称
-#   owner: qiubaiying    #github用户名
-#   admin: qiubaiying
-#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+enable: true    #是否开启Gitalk评论
+    clientID: 053261cb6e19f25a0368                            #生成的clientID
+    clientSecret: 010762d01d56d7dd7d007e11ff33e5ba15674c99    #生成的clientSecret
+    repo: lz2019hjh.github.io    #仓库名称
+    owner: lz2019hjh    #github用户名
+    admin: lz2019hjh
+    distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
