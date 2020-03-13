@@ -1,4 +1,4 @@
-I"�<h3 id="语法高亮">语法高亮</h3>
+I"�<h3 id="语法高亮">语法高亮</h3>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```cpp
 #include&lt;bits/stdc++.h&gt;
@@ -50,6 +50,7 @@ int main()
 <p><img src="https://avatars2.githubusercontent.com/u/56807614?s=96&amp;v=4" alt="头像" /></p>
 
 <h3 id="超链接">超链接</h3>
+
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[这是我的仓库](https://github.com/lz2019hjh/lz2019hjh.github.io)
 </code></pre></div></div>
 
@@ -61,4 +62,9 @@ int main()
 </code></pre></div></div>
 
 <p><code class="highlighter-rouge">lz2019hjh</code></p>
+
+<!-- ### pdf插入测试
+
+    <center><embed src="/pdf/1.pdf" width="850" height="600"></center>
+<center><embed src="/pdf/1.pdf" width="850" height="600"></center> -->
 :ET

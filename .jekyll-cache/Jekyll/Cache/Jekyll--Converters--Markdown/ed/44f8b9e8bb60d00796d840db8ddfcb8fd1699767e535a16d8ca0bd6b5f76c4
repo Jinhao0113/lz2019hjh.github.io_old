@@ -1,0 +1,290 @@
+I"�)<h1 id="前言">前言</h1>
+
+<blockquote>
+  <p>在使用<code class="highlighter-rouge">vscode</code>的时候你可能会遇到没有<code class="highlighter-rouge">g++</code>环境的问题,这时候你就需要配置环境</p>
+</blockquote>
+
+<h1 id="关于c编译环境配置">关于c++编译环境配置</h1>
+
+<h3 id="windows部分">windows部分</h3>
+
+<p>首先你得有一个<code class="highlighter-rouge">mingw</code>库,如果你有了<code class="highlighter-rouge">Dev-c++</code>,因该就有了,打开<code class="highlighter-rouge">Dev-c++</code>软件所在的安装目录</p>
+
+<p>下面以<code class="highlighter-rouge">windows 10</code>为例,<code class="highlighter-rouge">windows 7</code>好像差不多？</p>
+
+<p>默认安装在<code class="highlighter-rouge">C:\Program File (x86)\Dev-Cpp</code>,你可进入这个文件夹</p>
+
+<p>你会看到</p>
+
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gcqbdl3bwoj31c00u0aye.jpg" alt="1" /></p>
+
+<p>打开那个选中的目录</p>
+
+<p>你又会看到</p>
+
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gcqbfkiq2mj31c00u0arf.jpg" alt="2" /></p>
+
+<p>点击进入<code class="highlighter-rouge">bin</code>,你会看到以下东西</p>
+
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gcqbjdkoa8j31c00u07wh.jpg" alt="3" /></p>
+
+<p>有一个叫做<code class="highlighter-rouge">g++</code>的东西,这就是我们要的编辑器</p>
+
+<p>复制当前的文件夹的目录</p>
+
+<p>默认是<code class="highlighter-rouge">C:\Program File (x86)\Dev-Cpp\MinGW64\bin</code></p>
+
+<p>然后你就可以关闭这个东西了</p>
+
+<p>打开控制面板</p>
+
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gcqboi2fwsj31c00u0e19.jpg" alt="4" /></p>
+
+<p>在右上角的<code class="highlighter-rouge">搜算控制面板</code>里搜索<code class="highlighter-rouge">PATH</code></p>
+
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gcqbqc0l01j31c00u049m.jpg" alt="5" /></p>
+
+<p>点开<code class="highlighter-rouge">编辑系统环境变量</code></p>
+
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gcqbtq11ynj31c00u0nfo.jpg" alt="6" /></p>
+
+<p>点击右下角的<code class="highlighter-rouge">环境变量(N)...</code></p>
+
+<p>在上面那个<code class="highlighter-rouge">XXX的用户变量(U)</code></p>
+
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gcqbwffgatj31c00u01kx.jpg" alt="7" /></p>
+
+<p>看看左边这一栏变量里有没有<code class="highlighter-rouge">Path</code></p>
+
+<p>没有新建一个,点击<code class="highlighter-rouge">新建(N)...</code>,注意是上面那个!!!</p>
+
+<p>然后在变量名里写<code class="highlighter-rouge">Path</code></p>
+
+<p>变量值里写刚刚复制的文件目录<code class="highlighter-rouge">C:\Program File (x86)\Dev-Cpp\MinGW64\bin</code></p>
+
+<p>然后点击<code class="highlighter-rouge">确认</code></p>
+
+<p>如果有,双击点开<code class="highlighter-rouge">Path</code>,会看到</p>
+
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gcqc2g01z7j31c00u04lw.jpg" alt="8" /></p>
+
+<p>点击最上面的<code class="highlighter-rouge">新建(N)</code></p>
+
+<p>在跳出的文本框里输入刚刚复制的文件目录<code class="highlighter-rouge">C:\Program File (x86)\Dev-Cpp\MinGW64\bin</code></p>
+
+<p>写好后点击确定,关闭窗口后点再次点击确认,然后点击<code class="highlighter-rouge">应用(A)...</code></p>
+
+<p>然后<code class="highlighter-rouge">g++</code>环境就有了,之类也有了.</p>
+
+<p>打开<code class="highlighter-rouge">cmd</code>或<code class="highlighter-rouge">powershell</code></p>
+
+<p>输入<code class="highlighter-rouge">g++</code></p>
+
+<p>如果出现</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g++: fatal error: no input files
+compilation terminated.
+</code></pre></div></div>
+
+<p>就说明有了</p>
+
+<p>然后<code class="highlighter-rouge">g++</code>指令如下</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">指令</th>
+      <th style="text-align: center">作用</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">g++ asd.cpp -o asd</code></td>
+      <td style="text-align: center">将源程序编译成<code class="highlighter-rouge">asd.cpp</code>编译成<code class="highlighter-rouge">asd</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">g++ asd.cpp -o asd -std=c++11</code></td>
+      <td style="text-align: center">用<code class="highlighter-rouge">c++11</code>编译</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">g++ asd.cpp -o asd -o2 -lm</code></td>
+      <td style="text-align: center">打开<code class="highlighter-rouge">o2</code>和<code class="highlighter-rouge">lm</code>优化</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">…</td>
+      <td style="text-align: center">…</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>指令只可以重叠，比如说你可以<code class="highlighter-rouge">g++ asd.cpp -o asd -o -lm -std=c++11</code></p>
+
+<p>表示将<code class="highlighter-rouge">asd.cpp</code>打开<code class="highlighter-rouge">o2</code>,<code class="highlighter-rouge">lm</code>,用<code class="highlighter-rouge">c++11</code>编译成<code class="highlighter-rouge">asd</code></p>
+
+<p>结合上面猜一猜作用</p>
+
+<p>windows部分结束</p>
+
+<h3 id="mac部分">mac部分</h3>
+
+<p>如果你有了<code class="highlighter-rouge">xcode</code>你就有了一个叫做<code class="highlighter-rouge">clang</code>或<code class="highlighter-rouge">clang++</code>的编译器,他会伪装成<code class="highlighter-rouge">g++</code>,<code class="highlighter-rouge">gcc</code></p>
+
+<p>当你在<code class="highlighter-rouge">终端</code>里输入<code class="highlighter-rouge">g++</code>时</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>clang: error: no input files
+</code></pre></div></div>
+
+<p>出现以上说明你有<code class="highlighter-rouge">g++</code>了</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>zsh: command not found: g++
+</code></pre></div></div>
+
+<p>说明没有</p>
+
+<p>在命令行里输入</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>xcode-select --install
+</code></pre></div></div>
+
+<p>会跳出一个窗口</p>
+
+<p>点击安装</p>
+
+<p>你也就拥有<code class="highlighter-rouge">g++</code>了,不过可能没有<code class="highlighter-rouge">#include&lt;bits/stdc++.h&gt;</code>需要手动配置</p>
+
+<p>打开<code class="highlighter-rouge">/Library/Developer/CommandLineTools/usr/include/c++/v1</code>这个目录</p>
+
+<p>创建文件夹<code class="highlighter-rouge">bits</code></p>
+
+<p>进入<code class="highlighter-rouge">bits</code>，并在其中创建文件<code class="highlighter-rouge">stdc++.h</code></p>
+
+<p>在里面写入</p>
+
+<!-- ```cpp -->
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// C++ includes used for precompiling -*- C++ -*-
+
+// Copyright (C) 2003-2014 Free Software Foundation, Inc.
+//
+// This file is part of the GNU ISO C++ Library.  This library is free
+// software; you can redistribute it and/or modify it under the
+// terms of the GNU General Public License as published by the
+// Free Software Foundation; either version 3, or (at your option)
+// any later version.
+
+// This library is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+
+// Under Section 7 of GPL version 3, you are granted additional
+// permissions described in the GCC Runtime Library Exception, version
+// 3.1, as published by the Free Software Foundation.
+
+// You should have received a copy of the GNU General Public License and
+// a copy of the GCC Runtime Library Exception along with this program;
+// see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
+// &lt;http://www.gnu.org/licenses/&gt;.
+
+/** @file stdc++.h
+*  This is an implementation file for a precompiled header.
+*/
+
+// 17.4.1.2 Headers
+
+// C
+#ifndef _GLIBCXX_NO_ASSERT
+#include &lt;cassert&gt;
+#endif
+#include &lt;cctype&gt;
+#include &lt;cerrno&gt;
+#include &lt;cfloat&gt;
+#include &lt;ciso646&gt;
+#include &lt;climits&gt;
+#include &lt;clocale&gt;
+#include &lt;cmath&gt;
+#include &lt;csetjmp&gt;
+#include &lt;csignal&gt;
+#include &lt;cstdarg&gt;
+#include &lt;cstddef&gt;
+#include &lt;cstdio&gt;
+#include &lt;cstdlib&gt;
+#include &lt;cstring&gt;
+#include &lt;ctime&gt;
+
+#if __cplusplus &gt;= 201103L
+#include &lt;ccomplex&gt;
+#include &lt;cfenv&gt;
+#include &lt;cinttypes&gt;
+#include &lt;cstdbool&gt;
+#include &lt;cstdint&gt;
+#include &lt;ctgmath&gt;
+#include &lt;cwchar&gt;
+#include &lt;cwctype&gt;
+#endif
+
+// C++
+#include &lt;algorithm&gt;
+#include &lt;bitset&gt;
+#include &lt;complex&gt;
+#include &lt;deque&gt;
+#include &lt;exception&gt;
+#include &lt;fstream&gt;
+#include &lt;functional&gt;
+#include &lt;iomanip&gt;
+#include &lt;ios&gt;
+#include &lt;iosfwd&gt;
+#include &lt;iostream&gt;
+#include &lt;istream&gt;
+#include &lt;iterator&gt;
+#include &lt;limits&gt;
+#include &lt;list&gt;
+#include &lt;locale&gt;
+#include &lt;map&gt;
+#include &lt;memory&gt;
+#include &lt;new&gt;
+#include &lt;numeric&gt;
+#include &lt;ostream&gt;
+#include &lt;queue&gt;
+#include &lt;set&gt;
+#include &lt;sstream&gt;
+#include &lt;stack&gt;
+#include &lt;stdexcept&gt;
+#include &lt;streambuf&gt;
+#include &lt;string&gt;
+#include &lt;typeinfo&gt;
+#include &lt;utility&gt;
+#include &lt;valarray&gt;
+#include &lt;vector&gt;
+
+#if __cplusplus &gt;= 201103L
+#include &lt;array&gt;
+#include &lt;atomic&gt;
+#include &lt;chrono&gt;
+#include &lt;condition_variable&gt;
+#include &lt;forward_list&gt;
+#include &lt;future&gt;
+#include &lt;initializer_list&gt;
+#include &lt;mutex&gt;
+#include &lt;random&gt;
+#include &lt;ratio&gt;
+#include &lt;regex&gt;
+#include &lt;scoped_allocator&gt;
+#include &lt;system_error&gt;
+#include &lt;thread&gt;
+#include &lt;tuple&gt;
+#include &lt;typeindex&gt;
+#include &lt;type_traits&gt;
+#include &lt;unordered_map&gt;
+#include &lt;unordered_set&gt;
+#endif &lt;!-- ``` --&gt;
+</code></pre></div></div>
+
+<h3 id="linux部分">linux部分</h3>
+
+<p><code class="highlighter-rouge">debian</code>系的,在终端里输入</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install g++
+</code></pre></div></div>
+
+<p>完成</p>
+:ET
