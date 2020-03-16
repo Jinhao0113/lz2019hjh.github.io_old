@@ -1,4 +1,4 @@
-I"�<h3 id="语法高亮">语法高亮</h3>
+I"�	<h3 id="语法高亮">语法高亮</h3>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```cpp
 #include&lt;bits/stdc++.h&gt;
@@ -63,8 +63,17 @@ int main()
 
 <p><code class="highlighter-rouge">lz2019hjh</code></p>
 
-<!-- ### pdf插入测试
+<h3 id="pdf插入测试">pdf插入测试</h3>
 
-    <center><embed src="/pdf/1.pdf" width="850" height="600"></center>
-<center><embed src="/pdf/1.pdf" width="850" height="600"></center> -->
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;center&gt;&lt;embed src="/pdf/1.pdf" width="850" height="600"&gt;&lt;/center&gt;
+</code></pre></div></div>
+
+<p>有点慢</p>
+
+<center><embed src="/pdf/1.pdf" width="850" height="600" /></center>
+
+<h3 id="数学公式">数学公式</h3>
+
+<script type="math/tex; mode=display">\rho=\frac{m}{V}</script>
+
 :ET

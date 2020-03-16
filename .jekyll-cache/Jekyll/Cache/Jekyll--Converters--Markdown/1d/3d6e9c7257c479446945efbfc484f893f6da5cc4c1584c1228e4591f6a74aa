@@ -1,4 +1,5 @@
-I"N<h1 id="前言">前言</h1>
+I"z
+<h1 id="前言">前言</h1>
 
 <p>经过前面两篇文章,相信你们一定配好了环境和编辑器,然我们开始写代码吧!</p>
 
@@ -43,27 +44,27 @@
 最后记得要在主函数最后的最好写上<code class="highlighter-rouge">return 0;</code>表示在这里终止程序,返回值为<code class="highlighter-rouge">0</code></p>
 </blockquote>
 
-<h3 id="编译">编译</h3>
+<!-- ### 编译
 
-<p>这是一个代码<code class="highlighter-rouge">c++</code>代码</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include&lt;iostream&gt;
+这是一个代码`c++`代码
 
-using namespace std;
+    #include<iostream>
 
-int main()
-{
-    cout&lt;&lt;"hallo!";
-    return 0;
-}
-</code></pre></div></div>
+    using namespace std;
 
-<p>上面是一个代码,他的编译过程如下</p>
+    int main()
+    {
+        cout<<"hallo!";
+        return 0;
+    }
 
-<p><code class="highlighter-rouge">g++</code>开始读你的代码。</p>
+上面是一个代码,他的编译过程如下
 
-<p>他首先从主函数开始,看到你主函数里有一个叫<code class="highlighter-rouge">cout</code>的东西,他马上开始从你前面调用的<code class="highlighter-rouge">iostream</code>里寻找,发现了<code class="highlighter-rouge">cout</code>后,他会阅读你给他传递的东西,<code class="highlighter-rouge">"hallo!"</code>,<code class="highlighter-rouge">cout</code>马上进行了一波操作,在你的屏幕上显示出了<code class="highlighter-rouge">hallo!</code></p>
+`g++`开始读你的代码。
 
-<p>然后又读到了<code class="highlighter-rouge">return 0;</code>知道了,他明白现在这个程序要终止了.</p>
+他首先从主函数开始,看到你主函数里有一个叫`cout`的东西,他马上开始从你前面调用的`iostream`里寻找,发现了`cout`后,他会阅读你给他传递的东西,`"hallo!"`,`cout`马上进行了一波操作,在你的屏幕上显示出了`hallo!`
 
+然后又读到了`return 0;`知道了,他明白现在这个程序要终止了.
+ -->
 :ET
