@@ -1,4 +1,5 @@
-I"�	<h3 id="语法高亮">语法高亮</h3>
+I"z
+<h3 id="语法高亮">语法高亮</h3>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```cpp
 #include&lt;bits/stdc++.h&gt;
@@ -76,4 +77,13 @@ int main()
 
 <script type="math/tex; mode=display">\rho=\frac{m}{V}</script>
 
+<h3 id="文字显示">文字显示</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*asd*
+**asd**
+~~asd~~
+</code></pre></div></div>
+
+<p><em>asd</em>
+<strong>asd</strong>
+<del>asd</del></p>
 :ET
