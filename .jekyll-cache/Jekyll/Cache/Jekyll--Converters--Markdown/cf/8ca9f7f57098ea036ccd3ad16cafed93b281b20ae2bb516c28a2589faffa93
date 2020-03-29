@@ -1,0 +1,43 @@
+I"�<h3 id="前言">前言</h3>
+
+<blockquote>
+  <p>相信用苹果电脑的小伙伴们一定会被<code class="highlighter-rouge">mac</code>上一些应用的缺少或者不习惯而想装上<code class="highlighter-rouge">windows</code>对吧,再不换电脑的情况下解决方案有两个<code class="highlighter-rouge">双系统</code>与<code class="highlighter-rouge">虚拟机</code>,在我看来,<code class="highlighter-rouge">虚拟机</code>会比<code class="highlighter-rouge">双系统</code>效率与性能更强,安装更方便.</p>
+</blockquote>
+
+<h3 id="工具及软件准备">工具及软件准备</h3>
+
+<p>一台装有<strong>mac</strong>的电脑,<strong>vmware</strong>和<strong>windows10的镜像文件</strong></p>
+
+<h3 id="材料收集">材料收集</h3>
+
+<p><strong>vmware</strong><a href="https://download3.vmware.com/software/fusion/file/VMware-Fusion-11.5.3-15870345.dmg">官方下载网址</a></p>
+
+<p><strong>windows10镜像文件</strong><a href="https://www.microsoft.com/zh-cn/software-download/windows10ISO?36261b60-2f68-4336-abe2-4b00f210b6aa=True">官方下载网址</a>自己找一个适合自己的版本下载</p>
+
+<blockquote>
+  <p>上述文件下载很慢很慢,可以使用迅雷下载之类的方法加速</p>
+</blockquote>
+
+<h3 id="激活vmware">激活vmware</h3>
+
+<p>网上有很多激活码,随便尝试几个,总有可以的</p>
+
+<p>我用的是</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>XKZYV-PK9CC-A1Y0X-K5HZL-Y65ZV
+</code></pre></div></div>
+
+<p>现在不一定还可以用</p>
+
+<h3 id="开始安装windows10">开始安装windows10</h3>
+
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gdb52li3a2j31850u0qms.jpg" alt="" />
+<br />
+然后点击<code class="highlighter-rouge">新建</code>
+<br />
+会出现
+<img src="https://tva1.sinaimg.cn/large/00831rSTly1gdb54ndrnoj30yz0u07ia.jpg" alt="" />
+打开你<strong>Windows10镜像文件的下载目录</strong>
+接下去</p>
+<video width="320" height="240" src="../video/2020-03-29-1.mov"></video>
+:ET

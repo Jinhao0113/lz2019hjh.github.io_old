@@ -1,0 +1,89 @@
+I"�
+<h3 id="语法高亮">语法高亮</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```cpp
+#include&lt;bits/stdc++.h&gt;
+using namespace std;
+int main()
+{
+  return 0;
+}
+```
+</code></pre></div></div>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include&lt;bits/stdc++.h&gt;
+</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="表格">表格</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>|a|b|
+|:-:|:-:|
+|1|2|
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">a</th>
+      <th style="text-align: center">b</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">2</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="图片">图片</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![头像](https://avatars2.githubusercontent.com/u/56807614?s=96&amp;v=4)
+</code></pre></div></div>
+
+<p><img src="https://avatars2.githubusercontent.com/u/56807614?s=96&amp;v=4" alt="头像" /></p>
+
+<h3 id="超链接">超链接</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[这是我的仓库](https://github.com/lz2019hjh/lz2019hjh.github.io)
+</code></pre></div></div>
+
+<p><a href="https://github.com/lz2019hjh/lz2019hjh.github.io">这是我的仓库</a></p>
+
+<h3 id="单行代码">单行代码</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`lz2019hjh`
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">lz2019hjh</code></p>
+
+<h3 id="pdf插入测试">pdf插入测试</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;center&gt;&lt;embed src="/pdf/1.pdf" width="850" height="600"&gt;&lt;/center&gt;
+</code></pre></div></div>
+
+<p>有点慢</p>
+
+<center><embed src="/pdf/1.pdf" width="850" height="600" /></center>
+
+<h3 id="数学公式">数学公式</h3>
+
+<script type="math/tex; mode=display">\rho=\frac{m}{V}</script>
+
+<p>$a^2+b^2=c^2$</p>
+
+<h3 id="文字显示">文字显示</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*asd*
+**asd**
+~~asd~~
+</code></pre></div></div>
+
+<p><em>asd</em>
+<strong>asd</strong>
+<del>asd</del></p>
+:ET
