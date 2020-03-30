@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      2020-03-29-mac上利用vmware安装windows10
+title:      mac上利用vmware安装windows10
 subtitle:   解决双系统与虚拟机之间的决定
 date:       2020-03-29
 author:     lz2019hjh
@@ -11,7 +11,7 @@ tags:
     - windows10
 ---
 
-### 前言
+##
 
 > 相信用苹果电脑的小伙伴们一定会被`mac`上一些应用的缺少或者不习惯而想装上`windows`对吧,再不换电脑的情况下解决方案有两个`双系统`与`虚拟机`,在我看来,`虚拟机`会比`双系统`效率与性能更强,安装更方便.
 
