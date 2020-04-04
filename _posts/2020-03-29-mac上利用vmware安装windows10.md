@@ -46,5 +46,4 @@ tags:
 会出现
 ![](https://tva1.sinaimg.cn/large/00831rSTly1gdb54ndrnoj30yz0u07ia.jpg)
 打开你**Windows10镜像文件的下载目录**
-接下去
-<video width="320" height="240" src="https://lz2019hjh.github.io/video/2020-03-29-1.mov"></video>
+接下去将文件
