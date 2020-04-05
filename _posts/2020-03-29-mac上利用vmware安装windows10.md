@@ -146,3 +146,22 @@ tags:
 
 在共享文件夹中打开
 
+![](https://tva1.sinaimg.cn/large/00831rSTly1gdj07361mpj31c00u0npd.jpg)
+
+复制到桌面
+
+管理员运行`Activation.cmd`
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gdj0b2sv25j31c00u0qv5.jpg)
+
+按回车。
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gdj0dvciw0j31c00u0qv5.jpg)
+
+按`1`
+
+等一会就可以激活了
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gdj0ct1amwj31c00u0qv5.jpg)
+
+这样就可以快乐使用`windows10`
