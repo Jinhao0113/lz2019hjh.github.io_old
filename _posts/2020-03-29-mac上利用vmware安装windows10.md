@@ -11,7 +11,6 @@ tags:
     - windows10
 ---
 
-##
 
 > 相信用苹果电脑的小伙伴们一定会被`mac`上一些应用的缺少或者不习惯而想装上`windows`对吧,再不换电脑的情况下解决方案有两个`双系统`与`虚拟机`,在我看来,`虚拟机`会比`双系统`效率与性能更强,安装更方便.
 
@@ -40,10 +39,16 @@ tags:
 ### 开始安装windows10
 
 ![](https://tva1.sinaimg.cn/large/00831rSTly1gdb52li3a2j31850u0qms.jpg)
-<br>
+
 然后点击`新建`
-<br>
+
 会出现
+
 ![](https://tva1.sinaimg.cn/large/00831rSTly1gdb54ndrnoj30yz0u07ia.jpg)
+
 打开你**Windows10镜像文件的下载目录**
-接下去将文件
+
+接下去将文件拖到窗口里
+
+点击继续
+
