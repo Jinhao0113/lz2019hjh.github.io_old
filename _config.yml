@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: 3200985003@qq.com
 description: "Every failure is leading towards success."
 keyword: "胡锦浩,lz2019hjh,lz2019hjh blog,hjh"
-url: "http://lz2019hjh.github.io"          # your host, for absolute URL
+url: "https://lz2019hjh.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/lz2019hjh/lz2019hjh.github.io.git" # you code repository
 
