@@ -1,4 +1,4 @@
-#!/bin/bash
+git rm -r --cache ./*
 git add ./*
-git commit -m "chenge some thing"
+git commit -m "$1"
 git push
