@@ -105,19 +105,19 @@ service-worker: true
 
 
 
- Friends
- friends: [
-     {
-         title: "毛队",
-         href: "https://www.cnblogs.com/maoyiting/"
-     },{
-         title: "赖队",
-         href: "https://www.cnblogs.com/linskyQWQ/"
-     },{
-         title: "zqh",
-         href: "https://www.cnblogs.com/maoyiting/"
-     },{
-         title: "zhs",
-         href: "https://www.cnblogs.com/zhs1/"
-     }
- ]
+#  Friends
+#  friends: [
+#      {
+#          title: "毛队",
+#          href: "https://www.cnblogs.com/maoyiting/"
+#      },{
+#          title: "赖队",
+#          href: "https://www.cnblogs.com/linskyQWQ/"
+#      },{
+#          title: "zqh",
+#          href: "https://www.cnblogs.com/maoyiting/"
+#      },{
+#          title: "zhs",
+#          href: "https://www.cnblogs.com/zhs1/"
+#      }
+#  ]
