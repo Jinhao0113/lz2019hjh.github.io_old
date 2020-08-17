@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Mac OS Big Sur使用体验
-subtitle:   ubuntu linux相关
+subtitle:   Mac os相关
 date:       2020-08-08
 author:     lz2019hjh
 header-img: img/post-bg-big_sur.png
